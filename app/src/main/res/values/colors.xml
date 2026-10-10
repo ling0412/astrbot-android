@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <!-- 品牌蓝，取自官方 logo 采样 -->
+    <color name="brand_blue">#5CB8DC</color>
+</resources>

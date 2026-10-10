@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 13+ 主题图标（themed icon）单色层。
+  仅用不透明剪影的 alpha 作蒙版，颜色由系统主题替换；
+  形状与前景层一致（星标 + 两个加号），同样控制在 66dp 安全圆内。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M54,36 Q55.95,52.05 72,54 Q55.95,55.95 54,72 Q52.05,55.95 36,54 Q52.05,52.05 54,36 Z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M37,41.5 H46 M41.5,37 V46 M62,66.5 H71 M66.5,62 V71" />
+
+</vector>

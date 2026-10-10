@@ -1,0 +1,39 @@
+# ===== Gradle / 构建产物 =====
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# ===== 本地配置（含本机 SDK 路径，勿提交）=====
+local.properties
+
+# ===== IDE（IntelliJ IDEA / Android Studio）=====
+*.iml
+.idea/
+*.hprof
+
+# ===== Android 产物 =====
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+release/
+
+# ===== 签名 / 密钥（务必不要提交）=====
+*.jks
+*.keystore
+keystore.properties
+
+# ===== 日志 / 临时文件 =====
+*.log
+*.tmp
+.env
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db

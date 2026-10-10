@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标前景层（108x108dp 画布，内容控制在 66dp 安全圆内，避免被 mask 裁切）。
+  几何重绘版：4 角 sparkle 星 + 左上/右下两个圆头加号，品牌蓝。
+  比例：星与加号按同一系数缩放（相对 26/18 版等比），整体更小巧。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 主体四角星（凹边，控制点向中心收拢） -->
+    <path
+        android:fillColor="@color/brand_blue"
+        android:pathData="M54,36 Q55.95,52.05 72,54 Q55.95,55.95 54,72 Q52.05,55.95 36,54 Q52.05,52.05 54,36 Z" />
+
+    <!-- 左上 / 右下加号（圆头描边，随星等比缩小） -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/brand_blue"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M37,41.5 H46 M41.5,37 V46 M62,66.5 H71 M66.5,62 V71" />
+
+</vector>
